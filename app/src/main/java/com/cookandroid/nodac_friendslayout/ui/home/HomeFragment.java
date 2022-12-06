@@ -39,9 +39,8 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
-        //Slides
-        // howViewModel slideshowViewModel =
-        //        new ViewModelProvider(this).get(SlideshowViewModel.class);
+        //SlideshowViewModel slideshowViewModel =
+        //       new ViewModelProvider(this).get(SlideshowViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
