@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nodac_FriendsLayout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="logoutKOR">로그아웃</string>
+    <string name="logoutENG">logout</string>
+
+    <string name="MyCalendarKOR">내 캘린더</string>
+    <string name="MyCalendarENG">My Calendar</string>
+
+    <string name="friend1">고지혜</string>
+    <string name="friend2">김선호</string>
+    <string name="friend3">박선우</string>
+    <string name="friend4">이하은</string>
+</resources>

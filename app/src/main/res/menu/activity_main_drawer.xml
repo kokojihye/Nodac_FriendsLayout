@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/calendar"
+            android:title="@string/MyCalendarKOR" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/profile"
+            android:title="@string/friend1" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/profile"
+            android:title="@string/friend2" />
+        <item
+            android:id="@+id/nav_friend3"
+            android:icon="@drawable/profile"
+            android:title="@string/friend3" />
+        <item
+            android:id="@+id/nav_friend4"
+            android:icon="@drawable/profile"
+            android:title="@string/friend4" />
+    </group>
+</menu>
