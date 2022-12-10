@@ -17,6 +17,9 @@
     <string name="MyCalendarKOR">내 캘린더</string>
     <string name="MyCalendarENG">My Calendar</string>
 
+    <string name="UserName">김고박이</string>
+    <string name="UserEmail">kimkoparklee@syuin.ac.kr</string>
+
     <string name="friend1">고지혜</string>
     <string name="friend2">김선호</string>
     <string name="friend3">박선우</string>

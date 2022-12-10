@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
                 .setOpenableLayout(drawer)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_home);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         Intent receiverIntent = new Intent(MainActivity.this, AlarmRecevier.class);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, receiverIntent, 0);
 
-        String from = "2020-05-27 10:31:00"; //임의로 날짜와 시간을 지정
+        String from = "2020-012-06 17:31:00"; //임의로 날짜와 시간을 지정
 
         //날짜 포맷을 바꿔주는 소스코드
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_home);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
